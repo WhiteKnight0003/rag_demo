@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv() # tự tìm file .env trong thư mục hiện tại
 
-EURON_API_KEY = os.getenv("EURON_API_KEY")
+EURON_API_KEY = os.getenv("EURON_API_KEY2")
 
 def generate_completion(prompt, model='gpt-4.1-nano'):
     url = 'https://api.euron.one/api/v1/euri/chat/completions'

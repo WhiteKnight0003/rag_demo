@@ -1,0 +1,5 @@
+streamlit
+faiss
+numpy
+requests
+python-dotenv
